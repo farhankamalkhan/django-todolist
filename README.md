@@ -14,15 +14,15 @@ I've also build a quite similar app in Flask: https://github.com/rtzll/flask-tod
 ## Explore
 Try it out by installing the requirements. (Works only with python >= 3.4, due to django 2)
 
-    pip install -r requirements.txt
+    pip3 install -r requirements.txt
 
 Migrate:
 
-    python manage.py migrate
+    python3 manage.py migrate
 
 And then start the server (default: http://localhost:8000)
 
-    python manage.py runserver
+    python3 manage.py runserver 10.0.1.22:<AssignedIP>
 
 
 Now you can browse the [API](http://localhost:8000/api/)
